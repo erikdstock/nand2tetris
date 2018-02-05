@@ -6,12 +6,7 @@
     {
       "type": "shell",
       "label": "Test Chip",
-      // execute ./HardwareSimulator.sh CurrentChipFilename.tst
       "command": "${workspaceFolder}/tools/HardwareSimulator.sh ${fileDirname}/${fileBasenameNoExtension}.tst",
-      // "windows": {
-      //   I don't know how to do this in a windows environment- should be similar to command above w/ different slashes and .bat?
-      //   "command": ".\\scripts\\test.cmd"
-      // },
       "group": {
         "kind": "build",
         "isDefault": true
@@ -19,7 +14,8 @@
       "presentation": {
         "reveal": "always",
         "panel": "new"
-      }
+      },
+      "problemMatcher": []
     }
   ]
 }
