@@ -1,0 +1,10 @@
+{
+	// See http://go.microsoft.com/fwlink/?LinkId=827846
+	// for the documentation about the extensions.json format
+	"recommendations": [
+		"ryu1kn.partial-diff",
+		"roblourens.vscode-nand2tetris-hdl"
+		// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+		
+	]
+}
